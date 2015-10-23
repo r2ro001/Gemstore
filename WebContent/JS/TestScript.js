@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+
+
+function StoreController()
+{
+	alert("hello");
+}

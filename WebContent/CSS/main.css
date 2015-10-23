@@ -1,0 +1,47 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+	background-image: url("../BG.png");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+#galaxies
+{
+	height: 300px;
+	float: left;
+	width: 320px;
+	margin-top: 150px;
+	margin-right:10px;
+}
+
+h2, h4
+{
+	color:#FF7202;
+	font-family: 'Oswald', sans-serif;
+}
+
+h1
+{
+	color:#FF7202;
+	align:middle;
+	margin-left: 410px;
+	font-family: 'Oswald', sans-serif;
+}
+
+p
+{
+	font-family: 'Orbitron', sans-serif;
+}
+
+.ng-invalid.ng-dirty
+{
+	border-color:#FA787E;
+}
+
+.ng-valid.ng-dirty
+{
+	border-color:#78FA89;
+}
