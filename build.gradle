@@ -1,8 +1,15 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
+apply plugin: 'sonar-runner'
 
 sourceCompatibility = 1.5
+
 version = '1.0'
+
+
+
+def projectName = "Gemstore"
+
 jar {
     manifest {
         attributes 'Implementation-Title': 'Gradle Quickstart',
@@ -22,6 +29,17 @@ dependencies {
 test {
     systemProperties 'property': 'value'
 }
+
+ sonarRunner { 
+  
+  sonarProperties { 
+  
+      property "sonar.projectKey", projectName
+      property "sonar.projectName", projectName
+	property "sonar.exclusions", "**/jaxb/**" 
+		} 
+	}
+
 
 uploadArchives {
     repositories {
