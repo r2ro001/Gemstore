@@ -17,6 +17,14 @@ jar {
     }
 }
 
+
+buildscript {
+    repositories {
+      mavenCentral() 
+      jcenter()
+    }
+}
+
 repositories {
     mavenCentral()
 }
