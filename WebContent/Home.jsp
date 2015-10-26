@@ -30,7 +30,7 @@ img
 <link href='https://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
 <link href='https://fonts.googleapis.com/css?family=Orbitron:900' rel='stylesheet' type='text/css'>
 
-<title>Galaxy Storesdas</title>
+<title>Galaxy Store</title>
 </head>
 
 <body ng-controller="StoreController as store">
