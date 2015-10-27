@@ -1,6 +1,8 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'sonar-runner'
+apply plugin: 'war'
+apply plugin: 'maven'
 
 
 sourceCompatibility = 1.5
