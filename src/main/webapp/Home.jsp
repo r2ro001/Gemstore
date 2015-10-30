@@ -39,6 +39,7 @@ img
 <h1>Galaxy Store</h1>
 
 
+
 <div ng-repeat="product in store.products | orderBy:'+[price]'" id="galaxies">
 
 
