@@ -23,7 +23,7 @@ jar {
 buildscript {
     repositories {
       mavenCentral() 
-      jcenter()
+     
     }
 }
 
