@@ -1,6 +1,5 @@
 apply plugin: 'java'
 apply plugin: 'eclipse'
-apply plugin: 'sonar-runner'
 apply plugin: 'war'
 apply plugin: 'maven'
 
@@ -40,15 +39,6 @@ test {
     systemProperties 'property': 'value'
 }
 
- sonarRunner { 
-  
-  sonarProperties { 
-  
-      property "sonar.projectKey", projectName
-      property "sonar.projectName", projectName
-	property "sonar.exclusions", "**/jaxb/**" 
-		} 
-	}
 
 
 uploadArchives {
