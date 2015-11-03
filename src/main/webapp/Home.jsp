@@ -34,7 +34,7 @@ img
 </head>
 
 <body ng-controller="StoreController as store">
-<h1>Galaxy Store</h1>
+<h1>Galaxy Store!@#!@#!@#</h1>
 
 <div ng-repeat="product in store.products | orderBy:'+[price]'" id="galaxies">
 
